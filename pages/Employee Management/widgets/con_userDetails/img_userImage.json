@@ -19,7 +19,7 @@
         {"key": "borderRadius"},
         {"key": "image"}
     ],
-    "defaultImage": "https://assets.appsmith.com/widgets/default.png",
+    "defaultImage": "https://t4.ftcdn.net/jpg/00/65/77/27/360_F_65772719_A1UV5kLi5nCEWI0BNLLiFaBPEkUbv5Fv.jpg",
     "key": "0pndua8j2k",
     "image": "{{tbl_userInfo.selectedRow.image}}",
     "isDeprecated": false,

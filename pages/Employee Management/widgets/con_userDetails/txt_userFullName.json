@@ -23,7 +23,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "#FFC13D",
-    "text": "{{tbl_userInfo.selectedRow.name}}",
+    "text": "{{tbl_userInfo.selectedRow.first_name}} {{tbl_userInfo.selectedRow.last_name}}",
     "key": "799bmivq9p",
     "isDeprecated": false,
     "rightColumn": 60,
