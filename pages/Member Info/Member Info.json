@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Member Info_Api1",
-              "name": "Api1",
+              "id": "Member Info_Get_Members",
+              "name": "Get_Members",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -38,8 +38,8 @@
           ],
           [
             {
-              "id": "Member Info_Api2",
-              "name": "Api2",
+              "id": "Member Info_Get_Member_Loans",
+              "name": "Get_Member_Loans",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [

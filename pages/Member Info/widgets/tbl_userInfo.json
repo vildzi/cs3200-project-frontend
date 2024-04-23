@@ -424,7 +424,7 @@
             "verticalAlignment": "CENTER"
         }
     },
-    "onRowSelected": "{{Api2.run({\n \"memberId\": tbl_userInfo.selectedRow.user_id\n});}}",
+    "onRowSelected": "{{Get_Member_Loans.run({\n \"memberId\": tbl_userInfo.selectedRow.user_id\n});}}",
     "key": "1hz6z5p49i",
     "canFreezeColumn": true,
     "isDeprecated": false,
@@ -433,7 +433,7 @@
     "widgetId": "56er52c53d",
     "enableServerSideFiltering": false,
     "minWidth": 450,
-    "tableData": "{{Api1.data}}",
+    "tableData": "{{Get_Members.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0",

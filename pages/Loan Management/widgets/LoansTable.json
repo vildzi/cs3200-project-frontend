@@ -126,7 +126,7 @@
         "customColumn1": {
             "boxShadow": "{{LoansTable.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
-            "onClick": "{{End_Loan.run({\n  loanId: LoansTable.selectedRow.loan_id\n});}}",
+            "onClick": "{{End_Loan.run({\n  loanId: LoansTable.selectedRow.loan_id\n}).then(() => {\n  Loan_List.run();\n  Overdue_Loan_List.run();\n});}}",
             "buttonColor": "{{LoansTable.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
             "isEditable": false,
             "notation": "standard",
