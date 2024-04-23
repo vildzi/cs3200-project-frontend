@@ -94,7 +94,7 @@
     "hideCard": false,
     "mobileRightColumn": 35,
     "parentColumnSpace": 18.880859375,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onRowSelected"}],
     "borderWidth": "",
     "primaryColumns": {
         "phone": {
@@ -424,6 +424,7 @@
             "verticalAlignment": "CENTER"
         }
     },
+    "onRowSelected": "{{Api2.run({\n \"memberId\": tbl_userInfo.selectedRow.user_id\n});}}",
     "key": "1hz6z5p49i",
     "canFreezeColumn": true,
     "isDeprecated": false,
