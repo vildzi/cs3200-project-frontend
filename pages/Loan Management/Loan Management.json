@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Employee loan management",
-    "slug": "employee-loan-management",
+    "name": "Loan Management",
+    "slug": "loan-management",
     "layouts": [
       {
         "viewMode": false,
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Employee loan management_Book_List",
+              "id": "Loan Management_Book_List",
               "name": "Book_List",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -36,7 +36,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Employee loan management_Loan_List",
+              "id": "Loan Management_Loan_List",
               "name": "Loan_List",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -44,7 +44,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Employee loan management_Overdue_Loan_List",
+              "id": "Loan Management_Overdue_Loan_List",
               "name": "Overdue_Loan_List",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -52,7 +52,7 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Employee loan management_Users_List",
+              "id": "Loan Management_Users_List",
               "name": "Users_List",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -63,7 +63,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Employee loan management",
+        "id": "Loan Management",
         "deleted": false,
         "policies": [],
         "userPermissions": []

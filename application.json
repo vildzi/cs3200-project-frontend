@@ -1,6 +1,10 @@
 {
   "pages": [
     {
+      "id": "Employee Management",
+      "isDefault": false
+    },
+    {
       "id": "Public book catalog",
       "isDefault": false
     },
@@ -9,11 +13,11 @@
       "isDefault": false
     },
     {
-      "id": "Employee loan management",
+      "id": "Loan Management",
       "isDefault": true
     },
     {
-      "id": "Employee loan management",
+      "id": "Loan Management",
       "isDefault": false
     }
   ],

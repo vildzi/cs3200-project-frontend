@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Employee loan management",
+    "pageId": "Loan Management",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -80,7 +80,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-22T20:00:33Z"
   },
-  "id": "Employee loan management_Create_Loan",
+  "id": "Loan Management_Create_Loan",
   "deleted": false,
   "gitSyncId": "6625f0dec5c444647c872765_6626c1e1c5c444647c872781"
 }
