@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page2",
-    "slug": "page2",
+    "name": "Employee loan management",
+    "slug": "employee-loan-management",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1300,
+          "bottomRow": 1020,
           "containerStyle": "none",
           "snapRows": 128,
           "parentRowSpace": 1,
@@ -28,30 +28,42 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page2_Api1",
-              "name": "Api1",
+              "id": "Employee loan management_Book_List",
+              "name": "Book_List",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
-              "id": "Page2_Api2",
-              "name": "Api2",
+              "id": "Employee loan management_Loan_List",
+              "name": "Loan_List",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [
-                "tbl_userInfo.selectedRow.user_id"
-              ],
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Employee loan management_Overdue_Loan_List",
+              "name": "Overdue_Loan_List",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Employee loan management_Users_List",
+              "name": "Users_List",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page2",
+        "id": "Employee loan management",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -62,5 +74,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "6626c6ffc5c444647c87278a_66272df910a7fe0f8385a77c"
+  "gitSyncId": "6625f0dec5c444647c872765_6625f131c5c444647c872771"
 }

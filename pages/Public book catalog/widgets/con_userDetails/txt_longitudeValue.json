@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "{{tbl_userInfo.selectedRow.shelf_num}}",
+    "text": "{{tbl_userInfo.selectedRow.genres}}",
     "key": "jl31nlbh5s",
     "isDeprecated": false,
     "rightColumn": 62,

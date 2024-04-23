@@ -27,7 +27,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Customer Information",
+    "text": "Book Catalog\n",
     "key": "ph5glqkph7",
     "isDeprecated": false,
     "rightColumn": 22,

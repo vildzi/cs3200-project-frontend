@@ -5,15 +5,15 @@
       "isDefault": false
     },
     {
-      "id": "Page2",
+      "id": "Member Info",
       "isDefault": false
     },
     {
-      "id": "Page1",
+      "id": "Employee loan management",
       "isDefault": true
     },
     {
-      "id": "Page1",
+      "id": "Employee loan management",
       "isDefault": false
     }
   ],
@@ -22,7 +22,7 @@
   "unreadCommentThreads": 0,
   "color": "#FFEBFB",
   "unpublishedAppLayout": {
-    "type": "DESKTOP"
+    "type": "FLUID"
   },
   "publishedAppLayout": {
     "type": "DESKTOP"
