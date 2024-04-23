@@ -2,16 +2,18 @@
     "boxShadow": "none",
     "iconSVG": "/static/media/icon.a62f1265827a5af78966a733a05697db.svg",
     "labelText": "User",
-    "topRow": 25,
+    "topRow": 19,
     "labelWidth": 5,
     "type": "SELECT_WIDGET",
     "serverSideFiltering": false,
-    "defaultOptionValue": "GREEN",
+    "defaultOptionValue": "",
     "animateLoading": true,
     "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "sourceData"},
+        {"key": "optionLabel"}
     ],
     "placeholderText": "Select option",
     "isDisabled": false,
@@ -28,44 +30,35 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "needsErrorInfo": false,
     "mobileBottomRow": 34,
-    "widgetName": "Select2",
+    "widgetName": "UserID",
     "isFilterable": true,
+    "dynamicPropertyPathList": [
+        {"key": "sourceData"},
+        {"key": "optionLabel"}
+    ],
     "displayName": "Select",
     "searchTags": ["dropdown"],
-    "bottomRow": 32,
+    "bottomRow": 26,
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 21,
     "parentColumnSpace": 12.2998046875,
     "dynamicTriggerPathList": [],
     "labelPosition": "Top",
-    "sourceData": [
-        {
-            "code": "BLUE",
-            "name": "Blue"
-        },
-        {
-            "code": "GREEN",
-            "name": "Green"
-        },
-        {
-            "code": "RED",
-            "name": "Red"
-        }
-    ],
+    "sourceData": "{{Users_List.data}}",
     "key": "92kphyrqs6",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
     "rightColumn": 62,
     "thumbnailSVG": "/static/media/thumbnail.9aef24cb159e9c6e4d0f1d7ca4fb0c79.svg",
     "widgetId": "ocev68o2uo",
-    "optionValue": "code",
+    "optionValue": "user_id",
     "minWidth": 450,
     "parentId": "uvdjas2fdb",
     "labelAlignment": "left",
     "renderMode": "CANVAS",
     "mobileTopRow": 27,
-    "optionLabel": "name",
+    "optionLabel": "{{UserID.sourceData.map((item) => (item.first_name + ' ' + item.last_name + ' (' + item.email + ') (id: ' + item.user_id + ')'))}}",
     "responsiveBehavior": "fill",
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,

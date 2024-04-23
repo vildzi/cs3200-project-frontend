@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "Page2",
+    "slug": "page2",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1020,
+          "bottomRow": 1300,
           "containerStyle": "none",
           "snapRows": 128,
           "parentRowSpace": 1,
@@ -28,42 +28,30 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_Book_List",
-              "name": "Book_List",
+              "id": "Page2_Api1",
+              "name": "Api1",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
-            },
+            }
+          ],
+          [
             {
-              "id": "Page1_Loan_List",
-              "name": "Loan_List",
+              "id": "Page2_Api2",
+              "name": "Api2",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Page1_Overdue_Loan_List",
-              "name": "Overdue_Loan_List",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Page1_Users_List",
-              "name": "Users_List",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "tbl_userInfo.selectedRow.user_id"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "Page2",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -74,5 +62,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "6625f0dec5c444647c872765_6625f131c5c444647c872771"
+  "gitSyncId": "6626c6ffc5c444647c87278a_66272df910a7fe0f8385a77c"
 }

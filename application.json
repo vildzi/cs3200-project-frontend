@@ -1,11 +1,19 @@
 {
   "pages": [
     {
+      "id": "Page2",
+      "isDefault": false
+    },
+    {
       "id": "Page1",
       "isDefault": true
     },
     {
       "id": "Page1",
+      "isDefault": false
+    },
+    {
+      "id": "Public book catalog",
       "isDefault": false
     }
   ],
